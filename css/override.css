@@ -1,0 +1,29 @@
+/**
+ *
+ * -------------------------------------------
+ * Override
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 15. Override
+ *
+ *
+------------------------------------ */
+
+/* 15.1. Overrided elements
+==================================== */
+
+body {
+    padding: 0px;
+    background: url('http://localhost:25090/wp-content/themes/SERG-Gavern/images/justi.JPG');
+    background-attachment: fixed;
+
+}
+
+#gk-footer {    
+    background-image: url("http://justiceo.com/wp-content/uploads/2014/08/tiny_bg.png") ;
+    border-top: 2px solid #f0ab00;
+}

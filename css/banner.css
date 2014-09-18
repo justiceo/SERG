@@ -1,0 +1,83 @@
+.make-background {
+    background-color: #eee;
+    position: absolute;
+    top:  0;
+    width: 100%;
+    z-index: -2000;
+    height: 250px;
+    background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(135deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+}
+
+.make-background.home {
+    height: 600px;
+    overflow: hidden;
+}
+
+.make-background .gk-page {
+    max-width: 100%;
+    padding: 0px;   
+}
+
+.make-background .gk-page .box {
+    padding: 0px;
+}
+
+
+#gk-head {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-image: url("http://justiceo.com/wp-content/uploads/2014/08/tiny_bg.png") ;
+    border-bottom: 2px solid #f0ab00;
+    z-index: 100;
+}
+
+#gk-header.make-background {
+    padding: 0px;
+    margin: 0px;
+}
+
+#gk-head + #gk-top.make-background{
+    padding: 0px;
+}
+
+.gk-page-wrap.banner-space {
+    margin-top: 100px;        
+}
+
+
+.banner-space.home {
+    margin-top: 450px;
+}
+
+.banner-space.home #gk-mainbody-top {
+    padding-top: 50px;
+}
+
+#gk-mainbody-top {
+    background-color: #fff;
+    padding: 50px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding-top: 10px;
+    border-width: 4px 4px 2px 1px;
+    border-style: solid;
+    border-color: #F0AB00 #F0AB00 #CCC #CCC;
+    border-top-right-radius: 100px;
+}
+
+.page-mainbody {
+    margin-top: 100px;
+}
+
+body {
+    padding: 0px;
+}
