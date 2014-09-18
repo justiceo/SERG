@@ -1,5 +1,4 @@
-= MEET GAVERNWP =
+= SERG =
 
-* by GavickPro, http://www.gavick.com
+* An extension of meetgavern
 
-== ABOUT MEET GAVERNWP ==

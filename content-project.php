@@ -13,7 +13,7 @@ global $tpl;
 	      
 		
 <!-- project archive begins here -->
-<?php if ( is_search() || is_archive() || is_tag() ) : ?>
+<?php if ( is_search() || is_archive() || is_tag() || is_front_page() || is_home() ) : ?>
     <article id="post-<?php the_ID(); ?>" class="post project-post<?php if(!((1 + $wp_query->current_post) % 2)){ echo ' right';} else { echo ' left';} ?>">		
 		<section class="project">
             <header>
@@ -32,8 +32,8 @@ global $tpl;
         </section>
      </article>		
 
-<!-- single project begins here -->
 <?php else : ?>
+<!-- single project begins here -->
     <article id="post-<?php the_ID(); ?>" class="project-detail">
 		    <section class="content project"> 
 

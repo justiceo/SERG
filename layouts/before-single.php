@@ -54,11 +54,11 @@
                                         echo "<p class=\"mcontact\">" . $value . "</p>";
                                     }
 
-                                    $custom_field = $custom_fields['member_interests'];
+                                   /* $custom_field = $custom_fields['member_interests'];
                                     foreach( $custom_field as $key => $value ) {
                                         echo "<br />/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/";
                                         echo "<p class=\"minterests\">" . $value . "</p>";
-                                    }
+                                    }*/
                                 ?>
 		                        </header>
             

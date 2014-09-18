@@ -27,3 +27,7 @@ body {
     background-image: url("http://justiceo.com/wp-content/uploads/2014/08/tiny_bg.png") ;
     border-top: 2px solid #f0ab00;
 }
+
+#gk-mainbody-top h1 {
+    margin:  0;
+}

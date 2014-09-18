@@ -12,6 +12,9 @@ article.post {
     box-shadow: -1px 0px 0px 0px #D2D2D2 inset, -1px 0px 0px 0px #E6E6E6 inset, 1px 0px 0px 0px #D2D2D2 inset, 1px 0px 0px 0px #E6E6E6, 0px -1px 0px 0px #E8E8E8, 0px 2px 0px 0px rgba(241, 241, 241, 0.3), 0px 1px 0px 0px #B1B1B1;
 }
 
+article.post.home {
+    height: auto;
+}
 
 article.post section {
     margin-top: -15px;
@@ -109,26 +112,27 @@ article.member-single.banner {
     width:  100%;
     float:  none;
     max-width: 900px;
-    height: 350px;
-    margin-bottom: -20px ; 
+    height: auto;
     border: none;
 }
 
 article.member-single.banner figure {
-    width:  35%;
+    width:  200px;
     margin-right: 40px;
 }
 
 article.member-single.banner header h1 {
-    margin-bottom: 0px;
+    margin-bottom: 10px !important;
+    font-size: 28px;    
 }
 
 .mtitle, .mlocation, .mcontact {
-   font-size: 1.3em;
+   font-size: 15px;
     color:  #555;
     font-style: italic;
     margin-top: 0px;
     margin-bottom: 0px;
+    line-height: 25px;
 }
 
 

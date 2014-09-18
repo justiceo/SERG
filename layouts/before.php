@@ -15,7 +15,7 @@
 ?>
 
 
-<div id="gk-header" class="make-background">
+<div id="gk-header" class="make-background <?php if(is_front_page()){echo 'home';} ?>">
 	<div class="gk-page">
         <?php if(gk_is_active_sidebar('header')) : ?>
 			<?php gk_dynamic_sidebar('header'); ?>
