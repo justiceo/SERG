@@ -24,7 +24,17 @@ article.post header h2 {
     line-height: 1.3em;
     font-size: 20px;
     letter-spacing: 0.3px;
+    font-family: Arial;
+    font-weight: 600;
 }
+
+article.post header h2 a {
+    color: #07294D;
+}
+article.post header h2 a:hover {
+    color: #069;
+}
+
 
 article.post figure a.post-thumb {
     position: relative;

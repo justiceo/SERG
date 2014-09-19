@@ -44,3 +44,12 @@ body {
 hr {
     border-color:  #555;
 }
+
+.home-title {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.home-description {
+  font-size:  22px;
+}
+

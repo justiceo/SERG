@@ -21,6 +21,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 	<?php
 		wp_enqueue_style('gavern-normalize', gavern_file_uri('css/normalize.css'), false);
 		wp_enqueue_style('gavern-font-awesome', gavern_file_uri('css/font-awesome.css'), array('gavern-normalize'));
@@ -88,7 +89,7 @@
 		); 
 	?>
 </head>
-<body <?php do_action('gavernwp_body_attributes'); ?> style="background: url('<?php echo get_template_directory_uri(); ?>/images/CCI.PNG');">
+<body <?php do_action('gavernwp_body_attributes'); ?> style="background: url('<?php echo get_template_directory_uri(); ?>/images/justi.jpg');">
 	<header id="gk-head">
 		<div class="gk-page">
 			<?php if(get_option($tpl->name . "_branding_logo_type", 'css') != 'none') : ?>

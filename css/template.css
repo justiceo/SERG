@@ -84,11 +84,13 @@ h3,
 h4,
 h5,
 h6 {
-	color: #444;
-	font-weight: normal;
+	
+    color: #07294D;
+	font-weight: 600;
 	margin: 20px 0;
 	-ms-word-wrap: break-word;
 	    word-wrap: break-word;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {

@@ -22,8 +22,8 @@ gk_load('before');
 
 	<div class="shrink-page home">
         <img src="<?php echo get_template_directory_uri();?>/images/dragon.png" class="dragon" alt="drexel dragon"/>
-	    <h1>Software Engineering Research Group</h1>
-        <h4>College of Computing and Informatics, Drexel University</h4>
+	    <h1 class="home-title">Software Engineering Research Group</h1>
+        <p class="home-description">College of Computing and Informatics, Drexel University</p>
     </div>
     <section id="gk-mainbody" class="category-page home">
         <?php do_action('gavernwp_before_loop'); ?>
