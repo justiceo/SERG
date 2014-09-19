@@ -77,8 +77,7 @@ article header {
 article figure.featured-image img {
     margin: 0px;
     width: 100%;
-    border: 3px solid #ddd;
-    border-radius: 6px;
+    border: 2px solid #999;
 }
 
 article.project-post figure.featured-image img {
@@ -237,6 +236,13 @@ article.article-post header.no-thumb h2 {
   color: black;
 }
 
+
+.dragon {
+    float: right;
+    height: 100px;
+}
+
+
 @media (max-width: 800px) {
     .shrink-page {
         padding: 20px;
@@ -244,6 +250,11 @@ article.article-post header.no-thumb h2 {
     article.post {
         height: auto;
     }
+
+img.dragon {
+  width: 150px;
+}
+
     
     
 }
@@ -267,5 +278,17 @@ article.post header h2 {
 body {
     font-size: 13px;
 }
+.dragon {
+    float: none;
+}
+
+img.dragon {
+  width: 100px;
+}
+
+.home-title {
+  font-size: 30px;
+}
+
     
 }
