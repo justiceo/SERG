@@ -586,12 +586,12 @@ section.content::after {
 	padding: 10px 0;
     background: #ddd;
     max-width: 100%;
-    height: 70px;
+    height: auto;
     border-top: 1px solid #aaa;
 }
 
 #gk-footer a {
-	color: #ddd;
+	color: #222;
 }
 
 #gk-footer a:active,

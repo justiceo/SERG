@@ -27,6 +27,14 @@
 		    </div>
             </div>
             </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; SERG College of Computing and Informatics Drexel University.</p>
+                </div>
+            </div>
         </div>	
 		
 	</footer>

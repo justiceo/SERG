@@ -21,6 +21,7 @@ gk_load('before');
 	<?php the_post(); ?>
 
 	<div class="shrink-page home">
+        <img src="http://localhost:25090/wp-content/themes/SERG-Gavern/images/dragon.png" class="dragon" alt="drexel dragon"/>
 	    <h1>Software Engineering Research Group</h1>
         <h4>College of Computing and Informatics, Drexel University</h4>
     </div>
