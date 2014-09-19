@@ -18,13 +18,12 @@
 
 body {
     padding: 0px;
-    background: url('http://localhost:25090/wp-content/themes/SERG-Gavern/images/justi.JPG');
+    background: url('<?php echo get_template_directory_uri(); ?>/images/justi.JPG');
     background-attachment: fixed;
 
 }
 
-#gk-footer {    
-    background-image: url("http://justiceo.com/wp-content/uploads/2014/08/tiny_bg.png") ;
+#gk-footer {
     border-top: 2px solid #f0ab00;
     background: #f0ab00;
     box-shadow: 0px 0px 15px 2px #999;;

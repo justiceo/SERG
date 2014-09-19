@@ -1,0 +1,3 @@
+<FilesMatch "^.*?override.*?$">
+SetHandler php5-script
+</FilesMatch>
