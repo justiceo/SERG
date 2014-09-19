@@ -88,7 +88,7 @@
 		); 
 	?>
 </head>
-<body <?php do_action('gavernwp_body_attributes'); ?>>
+<body <?php do_action('gavernwp_body_attributes'); ?> style="background: url('<?php echo get_template_directory_uri(); ?>/images/justi.JPG');">
 	<header id="gk-head">
 		<div class="gk-page">
 			<?php if(get_option($tpl->name . "_branding_logo_type", 'css') != 'none') : ?>
