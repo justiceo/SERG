@@ -35,14 +35,14 @@ article.post figure a.post-thumb {
 }
 
 article.post.right {
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  /*border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;*/
   border-left: 1px solid #fff;
 }
 
 article.post.left {
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  /*border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;*/
   border-right: 1px solid #fff;
 }
 
@@ -217,7 +217,6 @@ article.article-post header.no-thumb h2 {
     padding: 50px; 
     background-color: white;
     border: 1px solid #aaa;
-    border-radius: 4px;
 }
 
 .read-more a {
@@ -226,4 +225,37 @@ article.article-post header.no-thumb h2 {
 
 .read-more a:hover {
   color: black;
+}
+
+@media (max-width: 800px) {
+    .shrink-page {
+        padding: 20px;
+}
+    article.post {
+        height: auto;
+    }
+    
+    
+}
+@media (max-width: 480px) {
+    article.post figure a.post-thumb {
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        margin:  5px 20px 5px 0;
+    }
+    article.post section.member figure a.post-thumb {
+        height: auto;
+        overflow: visible;        
+        margin:  0 0 15px;
+    }
+article.post header h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+body {
+    font-size: 13px;
+}
+    
 }

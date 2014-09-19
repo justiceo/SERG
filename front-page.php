@@ -24,7 +24,7 @@ gk_load('before');
 	    <h1>Software Engineering Research Group</h1>
         <h4>College of Computing and Informatics, Drexel University</h4>
     </div>
-    <section id="gk-mainbody" class="category-page">
+    <section id="gk-mainbody" class="category-page home">
         <?php do_action('gavernwp_before_loop'); ?>
 	    <?php
             $args = array( 'post_type' => 'project', 'posts_per_page' => 2 );

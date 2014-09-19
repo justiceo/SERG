@@ -100,7 +100,7 @@
 
 article.post, 
 article.page {
-	padding-left: 0!important;
+	/*padding-left: 0!important;*/
 }
 
 aside.meta {
